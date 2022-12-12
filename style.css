@@ -158,7 +158,7 @@ body .container-full-body .container-nav-top2 .parent-article1 .article1 .we {
   margin-top: 180px;
   color: #FE8C12;
 }
-body .container-full-body .container-nav-top2 .parent-article1 .article1 h2 {
+body .container-full-body .container-nav-top2 .parent-article1 .article1 h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
@@ -179,8 +179,8 @@ body .container-full-body .container-nav-top2 .parent-article1 .quote-content a 
 }
 body .container-full-body .container-nav-top2 .parent-article1 .swipe-button a {
   max-width: 100%;
-  position: relative;
-  margin-left: 700px;
+  position: absolute;
+  left: 75%;
 }
 body .container-full-body .container-nav-top2 .parent-nav-top2 {
   max-width: 60.95%;
@@ -231,42 +231,279 @@ body .container-full-body .container-nav-top2 .parent-nav-top2 .list-logo-nav-to
 body .container-full-body .container-nav-top2 .parent-nav-top2 .list-logo-nav-top2 .search .logo-search {
   margin-right: 32.38px;
 }
-body .container-full-body main section .parent-section1 {
-  max-width: 60.68%;
+body .container-full-body main .article2 {
+  max-width: 65%;
+  height: 813px;
   margin: 0 auto;
-  background-color: #FE8C12;
-  flex-basis: 50%;
+  display: flex;
+}
+body .container-full-body main .article2 .parent-section1 {
+  max-width: 100%;
+  margin: 0 auto;
   height: 813px;
   position: relative;
-  justify-content: center;
+  left: 50%;
 }
-body .container-full-body main section .parent-section1 article h9 {
+body .container-full-body main .article2 .parent-section1 section h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+  margin-top: 120px;
 }
-body .container-full-body main section .parent-section1 article h2 {
+body .container-full-body main .article2 .parent-section1 section h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 62px;
 }
-body .container-full-body main section .parent-section1 article p {
+body .container-full-body main .article2 .parent-section1 section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+}
+body .container-full-body main .article2 .parent-section1 section .satu ul {
+  position: relative;
+}
+body .container-full-body main .article2 .parent-section1 section .satu ul .dua {
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+body .container-full-body main .article2 .parent-section1 section .satu ul .dua .s .gg1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+}
+body .container-full-body main .article2 .parent-section1 section .satu ul .dua .s .gg2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }
-body .container-full-body main section .parent-section2 {
-  flex-basis: 50%;
+body .container-full-body main .article2 .parent-section1 section .satu ul .tiga {
+  display: flex;
+  position: relative;
 }
-body .container-full-body main section .parent-section2 .one {
+body .container-full-body main .article2 .parent-section1 section .satu ul .tiga .s .gg1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+}
+body .container-full-body main .article2 .parent-section1 section .satu ul .tiga .s .gg2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+body .container-full-body main .article2 .parent-section1 section .gg a {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  top: 55px;
+}
+body .container-full-body main .article2 .parent-section2 {
+  margin: 0 auto;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  right: 60%;
+}
+body .container-full-body main .article2 .parent-section2 .one {
+  position: relative;
+  top: 20%;
+  right: 50px;
+  width: calc(162px + 16vw);
+}
+body .container-full-body main .article2 .parent-section2 .two {
+  position: relative;
+  bottom: 35%;
+  left: 22%;
+}
+body .container-full-body main .article2 .parent-section2 .three {
+  position: relative;
+  bottom: 40%;
+  left: 33%;
+}
+body .container-full-body main .article3 {
+  height: 648px;
+  background-color: #343434;
+  top: 813px;
+  background: #0A0A0B;
+  opacity: 0.85;
+  margin: 0 auto;
+  width: 100%;
+}
+body .container-full-body main .article3 .parent1 {
+  background-color: #343434;
+}
+body .container-full-body main .article3 .parent {
+  max-width: 65%;
+  margin: 0 auto;
+  height: 648px;
+  display: flex;
+}
+body .container-full-body main .article3 .parent .test {
+  margin-top: 170px;
+}
+body .container-full-body main .article3 .parent .test h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: bolder;
+}
+body .container-full-body main .article3 .parent .test img {
+  margin-top: 15%;
+}
+body .container-full-body main .article3 .parent .test1 {
+  margin-top: 240px;
+  position: relative;
+  left: 200px;
+}
+body .container-full-body main .article3 .parent .test1 p {
+  position: relative;
+  bottom: 40px;
+}
+body .container-full-body main .article3 .parent .test1 a img {
+  position: relative;
+}
+body .container-full-body main .article3 .parent .test1 a .coretan {
+  position: relative;
+  margin-top: 30px;
+}
+body .container-full-body main .article4 {
+  height: 813px;
+  background-color: #ffffff;
+}
+body .container-full-body main .article4 .judul {
+  display: flex;
+  padding-left: 275px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FE8C12;
+  gap: 10px;
+  font-weight: 900;
+  margin-top: 83px;
+}
+body .container-full-body main .article4 h2 {
+  padding-left: 275px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: bolder;
+}
+body .container-full-body main .article4 .grid ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-top: 60px;
+}
+body .container-full-body footer {
   background-color: #FE8C12;
-  width: 470;
+  background-image: url(/Public/image/Background-footer.svg);
+}
+body .container-full-body footer .cont-1 {
+  height: 642px;
+}
+body .container-full-body footer .cont-1 .cont1-black {
+  display: flex;
+  gap: 20px;
+}
+body .container-full-body footer .cont-1 .cont1-black img {
+  max-width: 100%;
+}
+body .container-full-body footer .cont-1 .cont1-black h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+body .container-full-body footer .cont-1 .cont1-black {
+  position: relative;
+}
+body .container-full-body footer .cont-1 .cont-footer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  gap: 17px;
+}
+body .container-full-body footer .cont-1 .cont-footer .div-bioven img {
+  position: relative;
+}
+body .container-full-body footer .cont-1 .cont-footer .div-bioven p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+body .container-full-body footer .cont-1 .cont-footer .div-bioven ul {
+  display: flex;
+  margin-top: 20px;
+}
+body .container-full-body footer .cont-1 .cont-footer .pages-link .div1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+}
+body .container-full-body footer .cont-1 .cont-footer .pages-link .div1 .flex {
+  display: flex;
+  gap: 17px;
+  text-decoration: none;
+}
+body .container-full-body footer .cont-1 .cont-footer .recent-post h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .container-full-body footer .cont-1 .cont-footer .recent-post ul {
+  position: inherit;
+}
+body .container-full-body footer .cont-1 .cont-footer .information-footer h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+body .container-full-body footer .copyright img ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+body .container-full-body footer .copyright img ul li p {
+  position: relative;
+}
+body .container-full-body footer .copyright img ul .footer-last ul {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
