@@ -440,7 +440,7 @@ body {
                     }
             }
             .article4 {
-                width: 100%;
+                max-width: 100%; 
                 height: 813px;
                 background-color: #ffffff;
                 .judul {
@@ -469,11 +469,13 @@ body {
 
                 }
                 .grid {
-                    // background-color: red;
+                    // background-color: red; 
+                    width: 100%;  
+                    position: absolute;  
                     ul {
                         display: flex;
                         justify-content: center;
-                        flex-wrap: nowrap;
+                        // flex-wrap: nowrap;
                         gap: 10px;
                         margin-top: 60px;
                     }
@@ -483,11 +485,13 @@ body {
         footer {
             background-color: #FE8C12;
             background-image: url(/Public/image/Background-footer.svg);
+            width: 100%;   
             .cont-1{
                 height: 642px;
                 .cont1-black {
                     display: flex;
                     gap: 20px;
+                    bottom: 100px;
                     img {
                         max-width: 100%;
                         
@@ -510,8 +514,13 @@ body {
                     margin: 0 auto; 
                     max-width: 100%; 
                     gap: 17px;
+                    position: absolute;
                     
                     .div-bioven {
+                        width: 250px; 
+                        left: 250px;       
+                        margin: 0 auto;
+                        position: relative;
                         img {
                             position: relative;;
                         }
@@ -525,9 +534,13 @@ body {
                         ul {
                             display: flex;
                             margin-top: 20px;
+                            gap: 10px;
                         }
                     }
                     .pages-link {
+                        position: relative;
+                        left: 280px;                 
+                        text-decoration: none;  
                         .div1 {
                             p {
                                 font-family: 'Open Sans';
@@ -545,6 +558,9 @@ body {
                         }
                     }
                     .recent-post {
+                        position: relative;
+                        left: 290px;        
+                        // background-color: blue; 
                         h2 {
                             font-family: 'Open Sans';
                             font-style: normal;
@@ -552,11 +568,19 @@ body {
                             font-size: 20px;
                             line-height: 30px;
                         }
-                        ul {
-                            position: inherit;
+                        .parent {
+                            // background-color: red;
+                            display: flex; 
+                            gap: 10px; 
+
+
                         }
+
                     }
                     .information-footer {
+                        position: relative; 
+                        width: 250px; 
+                        left: 280px;  
                         h2{
                             font-family: 'Open Sans';
                             font-style: normal;
@@ -564,33 +588,57 @@ body {
                             font-size: 20px;
                             line-height: 30px;
                         }
+                        ul {
+                            li {
+                                display: flex; 
+                                gap: 20px; 
+                                font-family: 'Open Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+                        }
                     }
-
                 }
+            }
+            .copyright {
+                // background-color: red; 
+                img {
+                    width: 100%;
+                    position: relative;
+                    bottom: 180px;     
+                }
+                ul {
+                    // background-color: #FE8C12;
+                    display: flex;
+                    justify-content: flex-start; 
+                    position: relative; 
+                    left: 230px;  
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                    li {
+                        position: relative; 
+                        bottom: 150px;  
+                    }
+                    .footer {
+                        display: flex;
+                        gap: 20px;
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 24px;
+                        position: relative;
+                        left: 500px;            
+                    }
+                }
+
             }
             
-        }
-        footer {
-            .copyright {
-                img {
-                    ul {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        flex-grow: 1;
-                        li {
-                            p {
-                                position: relative;
-                            }
-                        }
-                        .footer-last {
-                            ul {
-                                display: flex;
-                            }
-                        }
-                    }
-                }
-            }
         }
     
     
