@@ -275,7 +275,7 @@ body {
 
                 .parent-section1 {
                     max-width: 100%;
-                    margin: 0 auto;
+                    margin: 0 auto;  
                     height: 813px;
                     position: relative;
                     left: 50%;
@@ -288,6 +288,9 @@ body {
                             font-size: 18px;
                             line-height: 28px;
                             margin-top: 120px;
+                            display: flex; 
+                            gap: 10px; 
+
 
                         }
 
@@ -378,7 +381,7 @@ body {
                     margin: 0 auto;
                     width: 100%;
                     flex-wrap: wrap;
-                    display: flex;
+                    display: flex;        
                     position: relative;
                     right: 60%;
 
