@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
   transition: all 0.1s;
 //   box-sizing: border-box;
-}
+} 
 html {
     scroll-behavior: smooth;
 }
@@ -25,7 +25,7 @@ body {
                         align-items: center;
                         margin: 0 auto;
                         height: 100px;
-                        
+
 
 
                         .first-nav-parent-logo {
@@ -74,7 +74,7 @@ body {
                                             p {
                                                 font-weight: 700;
                                                 font-size: 16px;
-                                                color: #0A0A0B; 
+                                                color: #0A0A0B;
                                             }
                                         }
                                     }
@@ -83,13 +83,11 @@ body {
 
                             .first-nav-parent-email {
                                 display: flex;
-                                // background-color: blue; 
                                 padding: 10px;
                                 align-items: center;
                                 gap: 5px;
 
                                 .logo-email2 {
-                                    // background-color: rebeccapurple;
                                     position: relative;
                                 }
 
@@ -99,7 +97,7 @@ body {
                                         text-decoration: none;
                                         line-height: 1.5;
                                         font-family: 'Open Sans';
-                                        font-style: normal; 
+                                        font-style: normal;
 
 
                                         .child-number1 {
@@ -114,7 +112,7 @@ body {
                                             p {
                                                 font-weight: 700;
                                                 font-size: 16px;
-                                                color: #0A0A0B; 
+                                                color: #0A0A0B;
                                             }
                                         }
                                     }
@@ -146,65 +144,72 @@ body {
 
                 }
             }
-            }
+        }
 
-            .container-nav-top2 {
-                height: 863px;
-                background-color: #343434;
-                .parent-article1 {
-                    max-width: 60.95%;
-                    margin: 0 auto;
-                    height: 806px;
-                    .article1 {
-                        background-color: #343434; 
-                        .we {
-                            font-family: 'Open Sans';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 16px;
-                            line-height: 26px;
-                            margin-top: 180px;
-                            color:#FE8C12
-                        }
-                        h3 {
-                            // background-color: aqua;  
-                            font-family: 'Open Sans';
-                            font-style: normal;
-                            font-weight: 800;
-                            font-size: 90px;
-                            line-height: 110px;
-                            color: #FFFFFF; 
-                        }
-                        p {
-                            max-width: 85%;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 24px;
-                            line-height: 34px;
-                        } 
-                    
+        .container-nav-top2 {
+            height: 863px;
+            background-color: #343434;
+
+            .parent-article1 {
+                max-width: 60.95%;
+                margin: 0 auto;
+                height: 806px;
+
+                .article1 {
+                    background-color: #343434;
+
+                    .we {
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-top: 180px;
+                        color: #FE8C12
                     }
-                    .quote-content {
-                        a {
-                            img {
-                                margin-top: 47px;
-                                }
-                            }
-                        }
-                    .swipe-button {
-                        
-                        a {
-                            max-width: 100%;
-                            position: absolute; 
-                            left: 75%;   
-                            
+
+                    h3 {
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 90px;
+                        line-height: 110px;
+                        color: #FFFFFF;
+                    }
+
+                    p {
+                        max-width: 85%;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 34px;
+                    }
+
+                }
+
+                .quote-content {
+                    a {
+                        img {
+                            margin-top: 47px;
                         }
                     }
                 }
+
+                .swipe-button {
+
+                    a {
+                        max-width: 100%;
+                        position: absolute;
+                        left: 75%;
+
+                    }
+                }
+            }
+
             .parent-nav-top2 {
                 max-width: 60.95%;
-                display: flex; 
+                display: flex;
                 background-color: rgb(0, 0, 0);
                 justify-content: space-around;
                 align-items: center;
@@ -212,18 +217,21 @@ body {
                 font-weight: bold;
                 margin: 0 auto;
                 height: 60px;
+
                 .list-nav-top2 {
                     display: flex;
-                    gap: 3%;  
+                    gap: 3%;
                     justify-content: start;
-                    flex-grow: 1; 
+                    flex-grow: 1;
                     flex-basis: 50%;
                     margin-left: 30px;
                     font-family: 'Open Sans';
+
                     li {
                         .orange {
                             color: #FE8C12;
                         }
+
                         a {
                             text-decoration: none;
                             font-style: normal;
@@ -234,6 +242,7 @@ body {
                         }
                     }
                 }
+
                 .list-logo-nav-top2 {
                     display: flex;
                     justify-content: end;
@@ -241,35 +250,36 @@ body {
                     flex-grow: 1;
                     flex-basis: 50%;
                     gap: 2%;
-                    position: sticky; 
+                    position: sticky;
+
                     .search {
-                        // background-color: aqua; 
                         display: flex;
                         gap: 10px;
                         margin-right: 30px;
                         align-items: center;
+
                         .logo-search {
-                            // background-color: red;
                             margin-right: 32.38px;
                         }
                     }
                 }
             }
-            }
+        }
+
         main {
             .article2 {
                 max-width: 65%;
                 height: 813px;
-                // background-color: red;
-                margin: 0 auto; 
-                display: flex; 
-                .parent-section1 { 
+                margin: 0 auto;
+                display: flex;
+
+                .parent-section1 {
                     max-width: 100%;
                     margin: 0 auto;
-                    // background-color: #c66905;   
                     height: 813px;
-                    position: relative; 
-                    left: 50%;            
+                    position: relative;
+                    left: 50%;
+
                     section {
                         h2 {
                             font-family: 'Roboto';
@@ -278,31 +288,36 @@ body {
                             font-size: 18px;
                             line-height: 28px;
                             margin-top: 120px;
-                            
+
                         }
+
                         h3 {
                             font-family: 'Open Sans';
                             font-style: normal;
                             font-weight: 800;
                             font-size: 48px;
                             line-height: 62px;
-                            
+
                         }
+
                         p {
                             font-family: 'Roboto';
                             font-style: normal;
                             font-weight: 400;
                             font-size: 16px;
                             line-height: 26px;
-                            margin-top: 30px;  
+                            margin-top: 30px;
                         }
+
                         .satu {
                             ul {
                                 position: relative;
+
                                 .dua {
                                     display: flex;
                                     position: relative;
                                     top: 20px;
+
                                     .s {
                                         .gg1 {
                                             font-family: 'Open Sans';
@@ -311,6 +326,7 @@ body {
                                             font-size: 18px;
                                             line-height: 28px;
                                         }
+
                                         .gg2 {
                                             font-family: 'Roboto';
                                             font-style: normal;
@@ -320,11 +336,13 @@ body {
                                         }
                                     }
                                 }
+
                                 .tiga {
                                     display: flex;
                                     position: relative;
+
                                     .s {
-                                        // background-color: #8012fe;
+
                                         .gg1 {
                                             font-family: 'Open Sans';
                                             font-style: normal;
@@ -332,6 +350,7 @@ body {
                                             font-size: 18px;
                                             line-height: 28px;
                                         }
+
                                         .gg2 {
                                             font-family: 'Roboto';
                                             font-style: normal;
@@ -343,46 +362,47 @@ body {
                                 }
                             }
                         }
+
                         .gg {
-                            a{
+                            a {
                                 display: flex;
                                 position: relative;
-                                gap: 30px; 
+                                gap: 30px;
                                 top: 55px;
-                                // background-color: #12fe22;
                             }
                         }
                     }
                 }
-                .parent-section2 {   
-                    margin: 0 auto;  
+
+                .parent-section2 {
+                    margin: 0 auto;
                     width: 100%;
-                    flex-wrap: wrap; 
+                    flex-wrap: wrap;
                     display: flex;
-                    // background-color: rebeccapurple;          
                     position: relative;
-                    right: 60%; 
+                    right: 60%;
+
                     .one {
-                        // background-color: #FE8C12;
                         position: relative;
-                        top: 20%; 
+                        top: 20%;
                         right: 50px;
                         width: calc(162px + 16vw);
                     }
+
                     .two {
-                        // background-color: #FE8C12;
-                        position: relative;  
-                        bottom: 35%;
-                        left: 22%;               
-                    }
-                    .three {
-                        // background-color: #1269fe; 
                         position: relative;
-                        bottom: 40%;  
-                        left: 33%;  
+                        bottom: 35%;
+                        left: 22%;
+                    }
+
+                    .three {
+                        position: relative;
+                        bottom: 40%;
+                        left: 33%;
                     }
                 }
             }
+
             .article3 {
                 height: 648px;
                 background-color: #343434;
@@ -391,60 +411,70 @@ body {
                 opacity: 0.85;
                 margin: 0 auto;
                 width: 100%;
+
                 .parent1 {
                     background-color: #343434;
                 }
-                    .parent {
-                        max-width: 65%;
-                        margin: 0 auto;
-                        height: 648px;
-                        display: flex;
-                        .test {
-                            margin-top: 170px;
-                            h2 {
-                                font-family: 'Open Sans';
-                                font-style: normal;
-                                font-weight: 800;
-                                font-size: 48px;
-                                line-height: 62px;
-                                font-weight: bolder;
-                            }
-                            img {
-                                margin-top: 15%;
-                            }
+
+                .parent {
+                    max-width: 65%;
+                    margin: 0 auto;
+                    height: 648px;
+                    display: flex;
+
+                    .test {
+                        margin-top: 170px;
+
+                        h2 {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 48px;
+                            line-height: 62px;
+                            font-weight: bolder;
                         }
-                        .test1 {
-                            margin-top: 240px;
-                            position: relative;
-                            left: 200px;
-                            p {
-                                position: relative;
-                                bottom: 40px;
-                            }
-                            a {
-                                img {
-                                    position: relative;
-                                }
-                                .coretan
-                                {
-                                    position: relative;
-                                    margin-top: 30px;
-                                }
-                            }
+
+                        img {
+                            margin-top: 15%;
                         }
-                        // .background {
-                        //     position: absolute;
-                        //     flex-wrap: wrap;
-                        //     right: 300px;
-                        // }
                     }
+
+                    .test1 {
+                        margin-top: 240px;
+                        position: relative;
+                        left: 200px;
+
+                        p {
+                            position: relative;
+                            bottom: 40px;
+                        }
+
+                        a {
+                            img {
+                                position: relative;
+                            }
+
+                            .coretan {
+                                position: relative;
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+
+                    // .background {
+                    //     position: absolute;
+                    //     flex-wrap: wrap;
+                    //     right: 300px;
+                    // }
+                }
             }
+
             .article4 {
-                max-width: 100%; 
+                max-width: 100%;
                 height: 813px;
                 background-color: #ffffff;
+
                 .judul {
-                    // background-color: #686C73;
                     display: flex;
                     padding-left: 275px;
                     font-family: 'Roboto';
@@ -457,8 +487,8 @@ body {
                     font-weight: 900;
                     margin-top: 83px;
                 }
-                h2{
-                    // background-color: aqua;
+
+                h2 {
                     padding-left: 275px;
                     font-family: 'Open Sans';
                     font-style: normal;
@@ -468,34 +498,39 @@ body {
                     font-weight: bolder;
 
                 }
+
                 .grid {
-                    // background-color: red; 
-                    width: 100%;  
-                    position: absolute;  
+                    width: 100%;
+                    position: absolute;
+
                     ul {
                         display: flex;
                         justify-content: center;
-                        // flex-wrap: nowrap;
                         gap: 10px;
                         margin-top: 60px;
                     }
                 }
             }
         }
+
         footer {
             background-color: #FE8C12;
             background-image: url(/Public/image/Background-footer.svg);
-            width: 100%;   
-            .cont-1{
+            width: 100%;
+
+            .cont-1 {
                 height: 642px;
+
                 .cont1-black {
                     display: flex;
                     gap: 20px;
                     bottom: 100px;
+
                     img {
                         max-width: 100%;
-                        
+
                     }
+
                     h2 {
                         font-family: 'Open Sans';
                         font-style: normal;
@@ -503,27 +538,32 @@ body {
                         font-size: 36px;
                         line-height: 46px;
                         color: #FFFFFF;
-                        
+
                     }
                 }
+
                 .cont1-black {
                     position: relative;
                 }
+
                 .cont-footer {
                     display: flex;
-                    margin: 0 auto; 
-                    max-width: 100%; 
+                    margin: 0 auto;
+                    max-width: 100%;
                     gap: 17px;
                     position: absolute;
-                    
+
                     .div-bioven {
-                        width: 250px; 
-                        left: 250px;       
+                        width: 250px;
+                        left: 250px;
                         margin: 0 auto;
                         position: relative;
+
                         img {
-                            position: relative;;
+                            position: relative;
+                            ;
                         }
+
                         p {
                             font-family: 'Roboto';
                             font-style: normal;
@@ -531,16 +571,19 @@ body {
                             font-size: 16px;
                             line-height: 26px;
                         }
+
                         ul {
                             display: flex;
                             margin-top: 20px;
                             gap: 10px;
                         }
                     }
+
                     .pages-link {
                         position: relative;
-                        left: 280px;                 
-                        text-decoration: none;  
+                        left: 280px;
+                        text-decoration: none;
+
                         .div1 {
                             p {
                                 font-family: 'Open Sans';
@@ -550,6 +593,7 @@ body {
                                 line-height: 30px;
                                 display: flex;
                             }
+
                             .flex {
                                 display: flex;
                                 gap: 17px;
@@ -557,10 +601,11 @@ body {
                             }
                         }
                     }
+
                     .recent-post {
                         position: relative;
-                        left: 290px;        
-                        // background-color: blue; 
+                        left: 290px;
+
                         h2 {
                             font-family: 'Open Sans';
                             font-style: normal;
@@ -568,30 +613,31 @@ body {
                             font-size: 20px;
                             line-height: 30px;
                         }
+
                         .parent {
-                            // background-color: red;
-                            display: flex; 
-                            gap: 10px; 
-
-
+                            display: flex;
+                            gap: 10px;
                         }
 
                     }
+
                     .information-footer {
-                        position: relative; 
-                        width: 250px; 
-                        left: 280px;  
-                        h2{
+                        position: relative;
+                        width: 250px;
+                        left: 280px;
+
+                        h2 {
                             font-family: 'Open Sans';
                             font-style: normal;
                             font-weight: 800;
                             font-size: 20px;
                             line-height: 30px;
                         }
+
                         ul {
                             li {
-                                display: flex; 
-                                gap: 20px; 
+                                display: flex;
+                                gap: 20px;
                                 font-family: 'Open Sans';
                                 font-style: normal;
                                 font-weight: 700;
@@ -602,28 +648,30 @@ body {
                     }
                 }
             }
+
             .copyright {
-                // background-color: red; 
                 img {
                     width: 100%;
                     position: relative;
-                    bottom: 180px;     
+                    bottom: 180px;
                 }
+
                 ul {
-                    // background-color: #FE8C12;
                     display: flex;
-                    justify-content: flex-start; 
-                    position: relative; 
-                    left: 230px;  
+                    justify-content: flex-start;
+                    position: relative;
+                    left: 230px;
                     font-family: 'Open Sans';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 24px;
+
                     li {
-                        position: relative; 
-                        bottom: 150px;  
+                        position: relative;
+                        bottom: 150px;
                     }
+
                     .footer {
                         display: flex;
                         gap: 20px;
@@ -633,14 +681,14 @@ body {
                         font-size: 14px;
                         line-height: 24px;
                         position: relative;
-                        left: 500px;            
+                        left: 500px;
                     }
                 }
 
             }
-            
+
         }
-    
-    
-        }
+
+
+    }
 }
